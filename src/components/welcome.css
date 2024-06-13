@@ -1,0 +1,87 @@
+.wel .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #E1DDB6;
+}
+
+.wel .container .rectlogo {
+    width: 40rem;
+    height: auto;
+    padding-top: 5rem;
+}
+
+.wel .wave {
+    position: relative;
+    width: 100%;
+    height: 22rem;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDQwIDMyMCI+PHBhdGggZmlsbD0iIzJCNTQyMyIgZmlsbC1vcGFjaXR5PSIxIiBkPSJNMCwyNTZMODAsMjY2LjdDMTYwLDI3NywzMjAsMjk5LDQ4MCwyNzcuM0M2NDAsMjU2LDgwMCwxOTIsOTYwLDE1NC43QzExMjAsMTE3LDEyODAsMTA3LDEzNjAsMTAxLjNMMTQ0MCw5NkwxNDQwLDMyMEwxMzYwLDMyMEMxMjgwLDMyMCwxMTIwLDMyMCw5NjAsMzIwQzgwMCwzMjAsNjQwLDMyMCw0ODAsMzIwQzMyMCwzMjAsMTYwLDMyMCw4MCwzMjBMMCwzMjBaIj48L3BhdGg+PC9zdmc+');
+    background-size: cover;
+    background-position: center;
+}
+
+.wel .wave:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #E1DDB6;
+    z-index: -1;
+    padding-bottom: 20rem;
+}
+
+.wel .wave .youthled,
+.wel .wave .learnmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+}
+
+.wel .wave .learnmore button {
+    background-color: #2B5423;
+    color: #E1DDB6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.wel .wave .learnmore button:hover {
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.wel .whatis {
+    color:#E1DDB6;
+    background-color: #2B5423;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.wel .weare{
+    background-color: #2B5423;
+}
+
+
+.wel .weare .wearetext {
+    color:#E1DDB6;
+    background-color: #2B5423;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom: 8rem;
+    max-width: 50rem; 
+    margin: 0 auto;
+}

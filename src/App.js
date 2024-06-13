@@ -1,6 +1,4 @@
-import "./styles.css"
-
-import Navbar from "./Navbar"
+import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Placements from "./pages/Placements"

@@ -4,9 +4,9 @@
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
 }
 
+/* Navbar.js START */
 .nav {
     background-color: #E1DDB6;
     color: #2B5423;
@@ -14,6 +14,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0.4rem;
+    border-bottom: 1.8rem solid #2B5423;
+    font-family: 'Inter', sans-serif;
 }
 
 .site-title {
@@ -36,7 +38,7 @@ body {
     padding: 0.8rem;
 }
 
-#contact {
+.nav .contact {
     background-color: #2B5423;
     color: #E1DDB6;
     border-radius: 0.5rem;
@@ -45,26 +47,25 @@ body {
 }
 
 .nav li:hover,
-.nav li:hover #contact {
+.nav li:hover .contact {
     color: white;
     transition: all 0.2s ease;
 }
 
-/* Responsive Styling */
-
 @media screen and (max-width: 768px) {
     .nav {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: flex-start; /* Align items to the start */
-        padding: 0.5rem; /* Adjust padding for better spacing */
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5rem;
     }
 
     .nav ul {
-        flex-direction: column; /* Stack navigation items vertically */
-        gap: 0.7rem; /* Reduce gap between items */
+        flex-direction: column;
+        gap: 0.7rem;
     }
 
-    #contact {
+    .nav .contact {
         margin-bottom: 1rem;
     }
 }
+/* Navbar.js END */

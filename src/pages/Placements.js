@@ -1,3 +1,7 @@
 export default function Placements() {
-    return <h1>Placements</h1>
+    return (
+        <div>
+            <h1>Placements</h1>
+        </div>
+    );
 }
