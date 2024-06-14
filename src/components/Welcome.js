@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='wel'>
       <div className='container'>
-        <img src="/rect-logo.svg" alt="Logo" className='rectlogo'/>
+        <img src="/HomeIMG/rect-logo.svg" alt="Logo" className='rectlogo'/>
       </div>
 
       <div className='wave'>

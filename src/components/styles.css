@@ -8,7 +8,7 @@ body {
 
 /* Navbar.js START */
 .nav {
-    background-color: #E1DDB6;
+    background-color: #E9E5BE;
     color: #2B5423;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
 
 .nav .contact {
     background-color: #2B5423;
-    color: #E1DDB6;
+    color: #E9E5BE;
     border-radius: 0.5rem;
     padding: 0.8rem 1rem;
     margin-right: 1.2rem;

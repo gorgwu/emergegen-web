@@ -1,0 +1,73 @@
+.serv-main {
+  font-family: 'Inter', sans-serif;
+  background-color: #E9E5BE;
+}
+
+.serv-main .services-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #E9E5BE;
+  /* Light beige color for the background */
+}
+
+.serv-main .services-container h2 {
+  color: #445c32;
+  /* Dark green color for the header */
+  margin-bottom: 20px;
+}
+
+.serv-main .services-container p {
+  color: #E9E5BE;
+  margin-bottom: 20px;
+}
+
+.serv-main .services {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 0px;
+}
+
+.serv-main .service {
+  background-color: #2B5423;
+  /* Dark green background for service boxes */
+  color: #E9E5BE;
+  /* Light beige color for text */
+  padding: 40px;
+  border-radius: 10px;
+
+  flex: 1;
+  min-width: 20%;
+  max-width: 20%;
+  height: 300px; /* Set a fixed height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serv-main .service-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  width: 60px;
+  height: auto;
+}
+
+.serv-main .service h3 {
+  margin-bottom: 20px;
+}
+
+.serv-main .service p {
+  font-size: 0.9rem;
+}
+
+.serv-main .wave {
+  background-image: url('/public/ServicesIMG/wave.svg');
+  padding-bottom: 500px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.serv-main .bottom {
+  background-color: #2B5423;
+  padding-bottom: 100px;
+}
