@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const App = () => {
   return (
     <div className='wel'>
-      <div className='container'>
+      <div className='container1'>
         <img src="/HomeIMG/rect-logo.svg" alt="Logo" className='rectlogo'/>
       </div>
 

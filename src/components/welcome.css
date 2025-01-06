@@ -1,4 +1,4 @@
-.wel .container {
+.wel .container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +6,7 @@
     background-color: #E9E5BE;
 }
 
-.wel .container .rectlogo {
+.wel .container1 .rectlogo {
     width: 60%;
     height: auto;
     padding-top: 5rem;
