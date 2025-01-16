@@ -1,6 +1,3 @@
-
-If the instructions are unclear or you ever need help, please ask George or ChatGPT for help! You aren't expected to know everything! (but ChatGPT is)
-
 ## How to Begin Editing
 
 To begin, please download the repository (preferably through git, but downloading it manually can work).
@@ -24,8 +21,6 @@ The website will reload when you make changes.
 There are other helpful commands such as npm test and npm run build. These can be looked into but will not be needed.
 
 ## How to Update The GitHub
-
-Please only update your branch and let Sandy or George know of your progress!
 
 Preferably use git and the Remote Repositories extension in Visual Studio Code. Otherwise, you will need to manually update all the files you changed. For example, if you created new files, you'll need to recreate them in GitHub and copy-paste your new code. 
 
